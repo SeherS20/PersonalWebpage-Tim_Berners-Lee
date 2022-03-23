@@ -66,32 +66,48 @@ p{
     font-family: 'Nanum Myeongjo', serif;
 }
 .menu{
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+   width: 100%;
     z-index: 10;
     cursor: pointer;
+    background: white;
 }
 .link{
-    float: left;
-    color: white;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
 }
 .link:hover{
-    background-color: grey;
+    font-size: 25px;
+    text-decoration: underline;
 }
 html{
     scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
+    color: firebrick;
+    text-shadow: 2px 2px gainsboro
 }
 .article:hover{
     color: darkcyan;
+}
+#wtitings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: rebeccapurple !important
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
+#Contact{
+    background-color:floralwhite;
 }
